@@ -11,9 +11,7 @@ namespace Vueling.Infraestructure.Repository.Contracts
         T Add(T model);
         T Update(Task model);
         List<T> gestAll();
-
         T GetTById(int id);
-
         int Remove(int id);
 
     }
