@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Facade.Api", "Vueli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Facade.Api.Tests", "Vueling.Facade.Api.Tests\Vueling.Facade.Api.Tests.csproj", "{6F9028C6-F861-4027-A8A7-3824775100D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vueling.Common.Layer", "Vueling.Common.Layer\Vueling.Common.Layer.csproj", "{32D73503-D136-4106-BBED-27AD09A130FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{6F9028C6-F861-4027-A8A7-3824775100D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9028C6-F861-4027-A8A7-3824775100D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9028C6-F861-4027-A8A7-3824775100D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D73503-D136-4106-BBED-27AD09A130FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D73503-D136-4106-BBED-27AD09A130FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D73503-D136-4106-BBED-27AD09A130FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D73503-D136-4106-BBED-27AD09A130FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{2DCAD3B3-7297-472A-B365-191D85F1AAF9} = {CB7462BE-7D5E-4FFB-A98C-088877CFBFB1}
 		{1F4D6DFF-13C0-4B36-8E37-023526D84114} = {569FA75E-E7C2-454E-8290-5E54997E5018}
 		{6F9028C6-F861-4027-A8A7-3824775100D7} = {569FA75E-E7C2-454E-8290-5E54997E5018}
+		{32D73503-D136-4106-BBED-27AD09A130FD} = {27DA0F0E-170C-4F25-ADEA-E8E6C2FB1A55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9ACC0EA4-F73E-4211-8EFF-3C0FA71181EC}

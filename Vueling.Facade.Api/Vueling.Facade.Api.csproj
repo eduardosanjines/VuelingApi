@@ -290,6 +290,10 @@
       <Project>{23b4ba44-e0bb-45a2-9e1c-0f3566afcbd3}</Project>
       <Name>Vueling.Application.Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Vueling.Common.Layer\Vueling.Common.Layer.csproj">
+      <Project>{32d73503-d136-4106-bbed-27ad09a130fd}</Project>
+      <Name>Vueling.Common.Layer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -83,6 +83,10 @@
     <Compile Include="Repository\AlumnoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Vueling.Common.Layer\Vueling.Common.Layer.csproj">
+      <Project>{32d73503-d136-4106-bbed-27ad09a130fd}</Project>
+      <Name>Vueling.Common.Layer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Vueling.Domain.Entities\Vueling.Domain.Entities.csproj">
       <Project>{45c78ba4-c46d-4331-974b-ab1d48274c9c}</Project>
       <Name>Vueling.Domain.Entities</Name>
