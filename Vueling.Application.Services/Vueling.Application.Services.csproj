@@ -42,5 +42,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vueling.Application.Dto\Vueling.Application.Dto.csproj">
+      <Project>{2dcad3b3-7297-472a-b365-191d85f1aaf9}</Project>
+      <Name>Vueling.Application.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Application.Services.Contracts\Vueling.Application.Services.Contracts.csproj">
+      <Project>{7a9d80d6-f865-4a82-8cd5-9e1617cf5d2b}</Project>
+      <Name>Vueling.Application.Services.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Domain.Entities\Vueling.Domain.Entities.csproj">
+      <Project>{45c78ba4-c46d-4331-974b-ab1d48274c9c}</Project>
+      <Name>Vueling.Domain.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
