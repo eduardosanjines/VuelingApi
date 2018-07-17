@@ -277,6 +277,20 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vueling.Application.Dto\Vueling.Application.Dto.csproj">
+      <Project>{2dcad3b3-7297-472a-b365-191d85f1aaf9}</Project>
+      <Name>Vueling.Application.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Application.Services.Contracts\Vueling.Application.Services.Contracts.csproj">
+      <Project>{7a9d80d6-f865-4a82-8cd5-9e1617cf5d2b}</Project>
+      <Name>Vueling.Application.Services.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Application.Services\Vueling.Application.Services.csproj">
+      <Project>{23b4ba44-e0bb-45a2-9e1c-0f3566afcbd3}</Project>
+      <Name>Vueling.Application.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
