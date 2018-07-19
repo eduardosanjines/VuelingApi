@@ -14,6 +14,5 @@ namespace Vueling.Application.Dto
         public string Dni { get; set; }
         public DateTime FechaNacimiento { get; set; }
 
-
     }
 }

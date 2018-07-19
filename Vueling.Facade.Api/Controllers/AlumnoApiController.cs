@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Vueling.Application.Dto;
@@ -15,6 +17,7 @@ namespace Vueling.Facade.Api.Controllers
     public class AlumnoApiController : ApiController
     {
         private readonly IService<AlumnoDto> alumnoService;
+        
         public AlumnoApiController() : this(new AlumnoService())
         {
         }
@@ -25,14 +28,19 @@ namespace Vueling.Facade.Api.Controllers
         }
 
         // GET: api/AlumnoApi
-        public IQueryable<AlumnoDto> Get()
+        public IEnumerable<AlumnoDto> Get()
         {
-            throw new NotImplementedException("Method not implemented yet");
+            List<AlumnoDto> alumnoDto = new List<AlumnoDto>();
+            return alumnoDto;
+
         }
 
         // GET: api/AlumnoApi/5
         public IHttpActionResult Get(int id)
         {
+
+
+
             throw new NotImplementedException("Method not implemented yet");
         }
 

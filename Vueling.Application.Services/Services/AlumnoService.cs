@@ -15,7 +15,6 @@ namespace Vueling.Application.Services.Services
 {
     public class AlumnoService : IService<AlumnoDto>
     {
-
         private readonly IRepositiry<AlumnoEntity> alumnoRepository;
         public AlumnoService():this (new AlumnoRepository())
         {
@@ -49,9 +48,10 @@ namespace Vueling.Application.Services.Services
 
         }
 
-        public List<AlumnoDto> gestAll()
+        public List<AlumnoDto> GetAll()
         {
-            throw new NotImplementedException();
+            List<AlumnoDto> alumnoDto = new List<AlumnoDto>();
+            return alumnoDto;
         }
 
         public AlumnoDto GetTById(int id)

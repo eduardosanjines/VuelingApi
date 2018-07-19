@@ -10,7 +10,7 @@ namespace Vueling.Application.Services.Contracts
     {
         T Add(T model);
         T Update(Task model);
-        List<T> gestAll();
+        List<T> GetAll();
         T GetTById(int id);
         int Remove(int id);
     }

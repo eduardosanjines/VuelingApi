@@ -14,11 +14,8 @@ namespace Vueling.Infrastructure.Repository.Repository
     {
         public AlumnoRepository Add(AlumnoRepository alumnoRepository)
         {
-
-  
             return alumnoRepository;
             //throw new NotImplementedException();
-
         }
 
         public AlumnoEntity Add(AlumnoEntity model)
@@ -54,9 +51,13 @@ namespace Vueling.Infrastructure.Repository.Repository
             return model;
         }
 
-        public List<AlumnoRepository> gestAll()
+        public List<AlumnoRepository> GetAll()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            List<AlumnoRepository> alumnoRepository = new List<AlumnoRepository>();
+
+            return alumnoRepository;
         }
 
         public AlumnoRepository GetTById(int id)
@@ -74,7 +75,7 @@ namespace Vueling.Infrastructure.Repository.Repository
             throw new NotImplementedException();
         }
 
-        List<AlumnoEntity> IRepositiry<AlumnoEntity>.gestAll()
+        List<AlumnoEntity> IRepositiry<AlumnoEntity>.GetAll()
         {
             throw new NotImplementedException();
         }
